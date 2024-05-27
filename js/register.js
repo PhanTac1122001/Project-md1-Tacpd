@@ -108,7 +108,7 @@ function submitForm(event) {
     let checkEmplty = checkEmptyError([username, email, password, cfPassword]);
     let checkEmail = checkEmailError(email);
     let checkLengthUser = checkLengthError(username, "name", 6, 20);
-    let checkLengthPass = checkLengthError(password, "password", 6, 20);
+    let checkLengthPass = checkLengthError(password, "password", 8, 20);
     let checkcfPass = checkCfPassword(password, cfPassword);
     if (!checkEmplty && !checkEmail && !checkLengthUser && !checkLengthPass && !checkcfPass) {
 

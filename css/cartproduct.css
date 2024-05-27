@@ -1,14 +1,61 @@
-.main-cart{
-    margin-top: 100px;
-    margin-left: 100px;
-    
+.main-cart {
+  margin-top: 100px;
+  margin-left: 100px;
 }
 
-tr th{
-    border: 1px solid black;
-    width: 200px;
+tr th {
+  border: 1px solid black;
+  width: 500px;
 }
-tr td{
-    text-align: center;
-   
+tr td {
+  border: 1px solid black;
+  text-align: center;
+}
+tr .img_form {
+  text-align: center;
+}
+
+tr .img_form .cart_name {
+  display: flex;
+  align-items: center;
+}
+
+tr .form_quantity {
+  display: flex;
+  
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+tr .form_quantity button {
+  width: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 4px;
+  color: #000;
+  
+}
+
+tr .form_quantity button span {
+  position: relative;
+  top: -1px;
+}
+tr .form_quantity input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  width: 20px;
+  height:30px;
+  text-align: center;
+  border: 1px solid #f0f0f0;
+  
 }

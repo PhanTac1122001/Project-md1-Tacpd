@@ -269,20 +269,6 @@
   display: block;
   width: 300px;
 }
-.section-box .form-box a:hover .img-hover {
-  display: none;
-}
-.section-box .form-box a .img-hover1 {
-  display: none;
-  width: 300px;
-}
-.section-box .form-box a .img-hover1 {
-  display: none;
-  width: 300px;
-}
-.section-box .form-box a:hover .img-hover1 {
-  display: block;
-}
 
 .form-box p {
   padding-top: 10px;
